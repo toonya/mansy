@@ -1,0 +1,20 @@
+.section-title{
+	
+}
+.section-title-edit{
+	display: none;
+}
+.repeatable-save{
+	display: none;
+}
+
+.section_repeatable .active .section-content-edit{
+	opacity: 0;
+}
+
+.section_repeatable .section-content-edit{
+	width: 30px;
+}
+.repeatable-remove{
+	float: right;
+}

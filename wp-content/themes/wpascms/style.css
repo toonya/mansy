@@ -1,0 +1,82 @@
+/*
+Theme Name: WordPress As CMS
+Theme URI: 
+Description: A theme made for the Wordpress As CMS tutorial which can be found on <a href="http://robertbasic.com/blog/wordpress-as-cms-tutorial/">http://robertbasic.com/blog/wordpress-as-cms-tutorial/</a>
+Version: 0.1
+Author: Robert Basic
+Author URI: http://robertbasic.com/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    color: #000000;
+    background: #FFFFFF;
+    text-align: left;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+    height: 80px;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+#navigation {
+    text-align: center;
+    height: 20px;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+}
+
+#navigation a {
+    padding: 0 15px 0 15px;
+}
+
+#header_image {
+    height: 204px;
+}
+
+#latest_works {
+    float: left;
+}
+
+.left_work {
+    width: 480px;
+    float: left;
+}
+
+.right_work {
+    width: 480px;
+    float: right;
+}
+
+#footer {
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 960px;
+}
